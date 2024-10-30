@@ -207,4 +207,20 @@ h3 {
     .skills-container {
         padding: 0 10px; /* Add some padding on the sides */
     }
+} 
+/* Add this CSS to your existing style.css */
+
+/* Hide the navbar icon on larger screens */
+@media (min-width: 769px) {
+    .icon {
+        display: none;
+    }
 }
+
+/* Ensure the icon is displayed on mobile devices */
+@media (max-width: 768px) {
+    .icon {
+        display: block; /* Ensure the icon is visible */
+    }
+}
+
